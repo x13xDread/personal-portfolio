@@ -1,0 +1,89 @@
+/* 
+    background color: #5133ab
+    secondary background color: #8e77d4
+*/
+
+
+*{
+    /* background-color: #5133ab; */
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-color: #8e77d4;
+}
+
+/* Header */
+header{
+    background: rgb(81,51,171);
+    background: linear-gradient(180deg, rgba(81,51,171,1) 0%, rgba(142,119,212,1) 100%);
+    height: 100vh;
+}
+header button{
+    min-width: 12em;
+}
+#header-content{
+    opacity: 0;
+    transition: opacity 3s;
+}
+#see-more-btn{
+    transition: color 1s;
+}
+#see-more-btn:hover{
+    color:#5133ab
+}
+.pfp{
+    border-radius: 50%;
+    width: 12em;
+    height: 12em;
+}
+
+/* About me  */
+#about-me{
+    background-color: #8e77d4;
+    padding: 1em;
+}
+
+/* Sections */
+section{
+    margin: 1em;
+    background: #3f5efb;
+    width: 59vw;
+    border-radius: 1em;
+    padding: 1em;
+    font-size: 1.5em;
+    transition: box-shadow 0.5s; 
+    transition: width 0.1s;
+    box-shadow: 10px 5px 5px #5133ab;
+}
+section:hover{
+    box-shadow: 15px 10px 5px #5133ab;
+    width: 60vw;
+}
+section hr{
+    height: .2em;
+    color:black;
+    background-color: black;
+}
+section h2{
+    font-size: 1.5em;
+}
+section p,section ul, section ul li{
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+
+/* Button Overrides */
+.btn-secondary:hover{
+    background-color: #4725ac;
+    border-color: #4725ac;
+}
+.btn-secondary{
+    background-color: #5133ab;
+    border-color: #5133ab;
+}
+.btn{
+    transition: background-color 1s;
+}
