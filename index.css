@@ -76,6 +76,23 @@ section p,section ul, section ul li{
     margin-left: 1em;
 }
 
+/* Projects section */
+.projects-section{
+    background-color: #8e77d4;
+}
+.projects-section-filled{
+    background: #3f5efb;
+    border-radius: 1em;
+    padding: 1em;
+    font-size: 2.2em;
+}
+#carousel{
+    margin:auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    width: 75vw;
+}
+
 
 /* Button Overrides */
 .btn-secondary:hover{

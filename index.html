@@ -90,8 +90,38 @@
         </section>
     </div>
     <!-- Projects Carousel -->
-    <div class = "">
-        this div be like
+    <div class = "projects-section d-flex justify-content-center">
+        <div class = "projects-section-filled text-center p-3 m-5">        
+            <h1>Projects</h1>
+            <div id="carousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="./assets/images/poppin-dev.PNG" class="d-block w-75 m-auto" style = "max-height: 17em" >
+                    
+                </div>
+                <div class="carousel-item" data-bs-interval="10000">
+                    <img src="./assets/images/code-poppin-dev.PNG" class="d-block w-75 m-auto" style = "max-height: 17em">
+                    
+                </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <p>Check out these projects and more on my Github</p>
+            <button onclick="window.location = 'https://github.com/x13xDread'" class = " m-3 btn btn-secondary">
+                Visit Github <i class="bi bi-github"></i>
+            </button>
+        </div>
     </div>
 
 </body>
