@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Miles B. Weber</title>
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
     
     <link rel="stylesheet" href="index.css">
 </head>
@@ -50,24 +51,24 @@
             <p>
                 Hi, I'm Miles! I'm a software developer that specializes in web applications and websites.
 
-                I have years of experience developing both and have really enjoyed doing my work over the years.
+                I have years of experience in software development and have really enjoyed doing my work over those years.
                 
-                I'm dedicated to providing beautiful products that match you or your company's vision.
+                I'm dedicated to my goal of providing beautiful products that match you or your company's vision in the best way possible.
 
                 I hope we get to work together in the future!
             </p>
         </section>
         <section class = "float-end">
-            <h2 class = "text-end">Skills & Contact&emsp;</h2>
+            <h2 class = "text-end">Skills&emsp;</h2>
             <hr/>
             <p>
                 I have experience in a variety of different areas inclduing:
                 <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>Ruby (Ruby on Rails)</li>
-                    <li>Website Design</li>
+                    <li><i class="list-icon devicon-html5-plain-wordmark"></i>&emsp;HTML</li>
+                    <li><i class="list-icon devicon-css3-plain-wordmark"></i>&emsp;CSS</li>
+                    <li><i class="list-icon devicon-javascript-plain"></i>&emsp;JavaScript</li>
+                    <li><i class="list-icon devicon-ruby-plain-wordmark"></i>&emsp;Ruby (Ruby on Rails)</li>
+                    <li><i class="list-icon devicon-git-plain-wordmark"></i>&emsp;Git & Github</li>
                 </ul>
             </p>
             <p>
@@ -76,12 +77,20 @@
                     Download Resume <i class="bi bi-download"></i>
                 </button>
             </p>
-            <p>
-                Contact me about employement at <a class = "text-white" href="mailto:milesweber13@gmail.com">milesweber13@gmail.com</a>
-            </p>
         </section>
         <section class = "float-start">
-            <h2>&emsp;Coding Activity</h2>
+            <h2>Connections & Contact&emsp;</h2>
+            <hr/>
+            <ul>
+                <!-- Email, Linkedin, github, -->
+                <li><a class = "list-link d-flex rounded-pill align-items-center" href="mailto:milesweber13@gmail.com"><i class=" list-icon bi bi-envelope"></i>&emsp;Email Me</a></li>
+                <li><a class = "list-link d-flex rounded-pill align-items-center" href="https://www.linkedin.com/in/miles-weber-360262221/" target="_blank"><i class=" list-icon bi bi-linkedin"></i>&emsp;LinkedIn Profile</a></li>
+                <li><a class = "list-link d-flex rounded-pill align-items-center" href="https://github.com/x13xDread" target="_blank"><i class=" list-icon bi bi-github"></i>&emsp;&emsp;Github Profile</a></li>
+
+            </ul>
+        </section>
+        <section class = "float-end">
+            <h2 class = "text-end">Coding Activity&emsp;</h2>
             <hr>
             <div class = "d-flex">
                 <figure class = "w-50"><embed src="https://wakatime.com/share/@66a31859-410b-4888-ae14-23f2c0fdcace/34294d2a-b03a-4bc4-bb04-d1519a6ca165.svg"></embed></figure>
@@ -117,12 +126,28 @@
                 <span class="visually-hidden">Next</span>
                 </button>
             </div>
-            <p>Check out these projects and more on my Github</p>
-            <button onclick="window.location = 'https://github.com/x13xDread'" class = " m-3 btn btn-secondary">
+            <div class = "d-flex justify-content-center">
+                <p class = "w-75">Check out these projects and more on my Github or using the links below</p>
+            </div>
+            <button onclick="window.location = 'https://www.poppin.dev'" style = "width:14em;" class = " m-3 btn btn-secondary">
+                Visit Group Profile Site <i class="bi bi-person"></i>
+            </button>
+            <button onclick="window.location = 'https://code.poppin.dev'" style = "width:14em;" class = " m-3 btn btn-secondary">
+                Visit Code Snippets Site <i class="bi bi-code-slash"></i>
+            </button>
+            <button onclick="window.location = 'https://github.com/x13xDread'" style = "width:14em;" class = " m-3 btn btn-secondary">
                 Visit Github <i class="bi bi-github"></i>
             </button>
         </div>
     </div>
-
+    <footer>
+        <div class = "d-flex justify-content-center">
+            <div class = "footer-hr text-center mb-4">
+                <hr>
+                Made by Miles Weber 2022&copy;
+            </div>
+        </div>
+       
+    </footer>
 </body>
 </html>

@@ -35,8 +35,8 @@ header button{
 }
 .pfp{
     border-radius: 50%;
-    width: 12em;
-    height: 12em;
+    width: 15em;
+    height: 15em;
 }
 
 /* About me  */
@@ -75,10 +75,32 @@ section p,section ul, section ul li{
     margin-right: 1em;
     margin-left: 1em;
 }
-
+section ul{
+    list-style-type: none;
+}
+section ul li{
+    display: flex;
+    align-self: center;
+    margin: 1em;
+}
+.list-icon{
+    font-size: 2em;    
+}
+.list-link{
+    color: white;
+    text-decoration: none;
+    padding: .4em;
+}
+.list-link:hover{
+    color: white;
+    text-decoration: none;
+    background-color: #5133ab;
+    border: 1px solid #5133ab;    
+}
 /* Projects section */
 .projects-section{
     background-color: #8e77d4;
+    background: linear-gradient(180deg, rgba(142,119,212,1) 0%,rgba(81,51,171,1) 100%);
 }
 .projects-section-filled{
     background: #3f5efb;
@@ -91,6 +113,17 @@ section p,section ul, section ul li{
     padding-top: 1em;
     padding-bottom: 1em;
     width: 75vw;
+}
+
+/* Footer */
+footer{
+    min-height: 5vh;
+    background-color:#5133ab;
+    
+}
+.footer-hr{
+    margin: 0;
+    width: 90%;
 }
 
 
