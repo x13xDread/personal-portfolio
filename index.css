@@ -139,3 +139,27 @@ footer{
 .btn{
     transition: background-color 1s;
 }
+/* Desktop */
+.header-title{
+    font-size: 500%;
+}
+/* Mobile Styles */
+@media only screen and (max-device-width: 768px){
+    .header-title{
+        font-size: 300%;
+    }
+    .header-buttons{
+        flex-direction: column;
+    }
+    section{
+        width: 90vw;
+    }
+    section:hover{
+        box-shadow: 15px 10px 5px #5133ab;
+        width: 90vw;
+    }
+    .list-link{
+        font-size: 65%;
+        text-align: center;
+    }
+}
